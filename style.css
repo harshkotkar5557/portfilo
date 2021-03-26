@@ -189,3 +189,8 @@ hr {
 .btn:hover {
   background-color: #632dc0;
 }
+
+.list button {
+    margin: 5px !important;
+}
+ 
