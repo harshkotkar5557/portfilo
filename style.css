@@ -200,20 +200,18 @@ hr {
 
 /* for button in Skills */
 .btn {
-    background-color: var(--primary-color);
-  border: none; 
-  color: white; 
-  padding: 12px 16px; 
-  font-size: 16px; 
-  cursor: pointer; 
-  border-radius: 5px;
+    background-color: #535c5f;
+    border: none;
+    color: white;
+    padding: 6px 8px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
     margin: 0.5rem;
 }
 
-/* Darker background on mouse-over */
-.btn:hover {
-    background-color: #13dffa;
-}
+
+
 
 .btn_container{
     display: flex;
