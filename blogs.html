@@ -9,16 +9,18 @@
     <!-- CSSv file link -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- /fontawsome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-        crossorigin="anonymous" />
-    <!-- googlefont -->
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/image/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/image/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/image/favicon-16x16.png">
     <link rel="manifest" href="/image/site.webmanifest">
+    <!-- /bootstrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> -->
+    <!-- googlefont -->
 </head>
 
 <body>
@@ -26,53 +28,46 @@
         <div class="nav-brand"><a href="/">hareshkotkar</a></div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
-                <a class="link link-active" href="/">Home</a>
+                <a class="link" href="/">Home</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="project.html">Projects</a>
+                <a class="link" href="/projects.html">Projects</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/blogs.html">Blogs</a>
+                <a class="link link-active" href="/blogs.html">Blogs</a>
             </li>
         </ul>
-       
     </nav>
 
     <header class="hero">
-        <img class="hero-img" src="image/heading-image.svg" />
-        <h1 class="hero-heading">Haresh kotkar, the <span class="heading-inverted"> Web Developer</span></h1>
+        <h1 class="hero-heading">see my <span class="heading-inverted"> blogs</span></h1>
     </header>
 
-    <section class="section ow">
-        <div class="container container-center">
-            <h1>Technologies</h1>
-            <div class="skill_container">
-                <button class="btn"> HTML</button>
-                <button class="btn"> CSS</button>
-                <button class="btn">Bootstrap</button>
-                <button class="btn"> JavaScript</button>
-                <button class="btn">Node.JS</button>
-                <button class="btn">Express.JS</button>
-                <button class="btn">React.JS</button>
+    <ul class="list-non-bullet">
+        <li>
+            <article class="showcase-list container ">
+                <h1>Blog 1</h1>
+            <small>Aug, 2021</small>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, quod sint repellat saepe asperiores laborum culpa iusto, quas sunt maiores laboriosam aliquid fuga tempora magni reiciendis ut id vitae necessitatibus.</p>
+            <div class="btn_container">
+                <a class="link link-primary" href="#">Check Out</a>
             </div>
-        </div>
-    </section>
+            </article>
+            
+        </li>
+        <li>
+            <article class="showcase-list container ">
+                <h1>Blog 2</h1>
+            <small>Aug, 2021</small>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, quod sint repellat saepe asperiores laborum culpa iusto, quas sunt maiores laboriosam aliquid fuga tempora magni reiciendis ut id vitae necessitatibus.</p>
+            <div class="btn_container">
+                <a class="link link-primary" href="#">Check Out</a>
+            </div>
+            </article>
+            
+        </li>
 
-    <section class="section">
-        <div class="container container-center">
-            <h1>Projects</h1>
-            <p>I like to showcase my work and thus, you can see my projects hosted online</p>
-            <a class="link link-primary" href="/project.html">See Projects</a>
-        </div>
-    </section>
-    <section class="section ow">
-        <div class="container container-center">
-            <h1>Blogs</h1>
-            <div class="skill_container">
-                <a class="link link-primary" href="#">See Blogs</a>
-            </div>
-        </div>
-    </section>
+    </ul>
 
     <footer class="footer">
         <div class="footer-header">Connect With Me</div>
