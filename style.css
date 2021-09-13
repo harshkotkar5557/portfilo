@@ -27,10 +27,33 @@ hr {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
 }
 
+.resume_download{
+    height: 2.5rem;
+    width: 2.5rem;
+    position: absolute;
+    right: 1.3rem;
+    top: 100px;
+    border-radius: 50%;
+    text-align: center;
+    background: var(--primary-color);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.resume_download::after{
+    content: "CV";
+    font-size: 0.6rem;
+    content: "CV";
+    position: absolute;
+    top: 26px;
+    left: 14px;
+}
+.resume_download a{
+    color: white;
+}
 /** links **/
 .link {
     box-sizing: border-box;
