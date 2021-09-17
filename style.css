@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #1e343a;
+    --primary-color: #3781ba;
     --off-white: #F3F4F6;
     --dark-gray: #6B7280;
 }
@@ -70,7 +70,7 @@ hr {
     margin: 1rem 1rem 1rem 0rem;
 }
 .link-primary:hover{
-    background-color: #13dffa;
+    background-color: #024c61;
 }
 
 .link-secondary {
@@ -223,14 +223,13 @@ hr {
 
 /* for button in Skills */
 .btn {
-    background-color: #535c5f;
-    border: none;
-    color: white;
+    border: 2px solid #084051;
     padding: 6px 8px;
     font-size: 16px;
-    cursor: pointer;
     border-radius: 5px;
     margin: 0.5rem;
+    cursor: default;
+    box-shadow: 2px 2px 3px 2px rgb(223, 220, 220);
 }
 
 
